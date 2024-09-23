@@ -1,11 +1,12 @@
 // JS ----> Functionalities
 
-// Built - in   functions
+// 1. Built - in   functions
 
 // alert("hi");
+
 // console.log("hello");
 
-// User defined functions
+// 2. User defined functions
 
 // Datatypes:
 
@@ -21,9 +22,9 @@
 // Variables:
 
 // a = 23;
-// age = 23;
+// Age = 23;
 
-// console.log(age);
+// console.log(Age);
 
 // Scoping // Hoisting // Variable Declarations
 
@@ -33,29 +34,112 @@
 
         // var
 
-        // a = 20;
+        // var a = 1000;
+        
+        // var a = 30;
 
-        // // var a = 1000;
-        // // a = 1000;
-
-        // console.log(a);
-        // console.log(a);
-        // console.log(a);
         // console.log(a);
         
     // ES6 -> Latest
 
         // let
         
-        let a1;
+        // let a1 = 5000;
 
-        a1 = 5000;
+        // a1 = 100;
 
-        console.log(a1);
+        // console.log(a1);
         
         // const   ---->   Constant
 
         // const c = 1000;
 
         // console.log(c);
+
+    // // Static Programming  -> c / c++ / JAVA
+
+    // int a = 100;
+
+    // // Dynamic Programming  -> Scripting Languages -> JS, Python
+
+    // a = 100;
+    // b = "hello";
         
+// Types of Variable Declaration:
+
+// 1. Global variables (or) Global Scope ----> (var)
+
+// {
+
+//     var a = 100;
+
+//     console.log("inside: ", a);
+
+// }
+
+// console.log("Outside: ", a);
+
+// 2. Local variables (or) Block scope ----> (let, const)
+
+// {
+
+//     let a = 100;
+
+//     const a = 100;
+
+//     console.log("inside: ", a);
+
+// }
+
+// console.log("Outside: ", a);
+
+// Example:
+
+// let a = 50;
+
+// {
+//     {
+//         {
+//             a = 3;
+//             {
+//                 {
+//                     {
+//                         {
+//                             console.log(a);
+//                         }
+//                     }
+//                 }
+//             }
+//             console.log(a);
+//         }
+//     }
+//     console.log(a)
+// }
+
+// Operators:
+
+// 1. Arithmetic OP 
+
+    // (+, -, *, /, **, %, ++, --)
+
+// 2. Assignment OP
+
+    // (=, +=, -=, *=, /=, %=, **=)
+
+// 3. Comparision OP
+
+    // (==, ===, !=, !==, >, <, >=, <=)
+
+// 4. Logical OP
+
+    // (&&, ||, !)
+
+// 5. Bitwise OP
+
+    // (&, |, ~, ^, <<, >>)
+
+// 6. Ternary OP
+
+    // (?)
+
+// 7. Type OP

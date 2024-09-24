@@ -116,30 +116,4 @@
 //     console.log(a)
 // }
 
-// Operators:
 
-// 1. Arithmetic OP 
-
-    // (+, -, *, /, **, %, ++, --)
-
-// 2. Assignment OP
-
-    // (=, +=, -=, *=, /=, %=, **=)
-
-// 3. Comparision OP
-
-    // (==, ===, !=, !==, >, <, >=, <=)
-
-// 4. Logical OP
-
-    // (&&, ||, !)
-
-// 5. Bitwise OP
-
-    // (&, |, ~, ^, <<, >>)
-
-// 6. Ternary OP
-
-    // (?)
-
-// 7. Type OP

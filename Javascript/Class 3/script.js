@@ -168,8 +168,48 @@
     // --------------
     //           0010  -> ()
 
+    // <<
+
+    // let a = 3
+
+    // let result = a << 2;
+
+    // console.log(result);
+
+    // // Explanation:
+
+    // // (3) --> 00000011
+
+    // // (1) --> 00000110
+    // // (2) --> 00001100   -> 12
+
+    // >>
+
+    // let a = 16
+
+    // let result = a >> 2;
+
+    // console.log(result);
+
+    // // Explanation:
+
+    // // (16) --> 00010000
+
+    // // (1)  --> 00001000
+    // // (2)  --> 00000100  --> 4
+    
+
 // 6. Ternary OP
 
-    // (?)
+//     // (?)
 
-// 7. Type OP
+//     let age = 16;
+
+//     let result = (age > 18) ? "Your Eligible for voting" : "Not Eligible";
+
+//     console.log(result);
+    
+
+// // 7. Type OP
+
+// console.log(typeof result);

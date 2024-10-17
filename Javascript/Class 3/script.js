@@ -60,7 +60,7 @@
     // let a = 10;
     // let result;
 
-    // result = (a == 10) && (a > 5)
+    // result = (a == 10) && (a < 5)
 
     // console.log(result);
 
@@ -71,10 +71,10 @@
     // (False) || (True)   ---> True
     // (False) || (False)  ---> False
 
-    // let a = 10;
+    // let a = 11;
     // let result;
 
-    // result = (a == 10) || (a < 5)
+    // result = (a == 10) || (a > 5)
 
     // console.log(result);
 
@@ -100,19 +100,19 @@
     // (0) & (0) ---> 0
 
     // let a = 5;
-    // let b = 7;
+    // let b = 3;
     // let result;
 
     // result = a & b;
 
     // console.log(result);
 
-    // // Explanation:
+    // Explanation:
     
-    // // (5) ----> 0101
-    // // (7) ----> 0111
-    // // --------------
-    // //           0101  -> (5)
+    // (5) ----> 0101
+    // (3) ----> 0011
+    // --------------
+    //           0001  -> (1)
 
     // |
 
@@ -122,7 +122,7 @@
     // (0) | (0) ---> 0
 
     // let a = 5;
-    // let b = 7;
+    // let b = 2;
     // let result;
 
     // result = a | b;
@@ -136,7 +136,7 @@
     // --------------
     //           0111  -> (7)
 
-    // ~       (-8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7.....)
+    // ~       (-8 -7 -6 -5 -4 -3 -2 -1 ~ 0 1 2 3 4 5 6 7.....)
 
     // let a = 5;
     // let b = 7;
@@ -166,7 +166,7 @@
     // (5) ----> 0101
     // (7) ----> 0111
     // --------------
-    //           0010  -> ()
+    //           0010  -> (2)
 
     // <<
 
@@ -176,18 +176,18 @@
 
     // console.log(result);
 
-    // // Explanation:
+    // Explanation:
 
-    // // (3) --> 00000011
+    // (3) --> 00000011
 
-    // // (1) --> 00000110
-    // // (2) --> 00001100   -> 12
+    // (1) --> 00000110
+    // (2) --> 00001100   -> 12
 
     // >>
 
     // let a = 16
 
-    // let result = a >> 2;
+    // let result = a >> 3;
 
     // console.log(result);
 
@@ -196,20 +196,21 @@
     // // (16) --> 00010000
 
     // // (1)  --> 00001000
-    // // (2)  --> 00000100  --> 4
+    // // (2)  --> 00000100  
+    // // (3)  --> 00000010  --> 2
     
 
 // 6. Ternary OP
 
-//     // (?)
+    // (?)
 
-//     let age = 16;
+    // let age = 16;
 
-//     let result = (age > 18) ? "Your Eligible for voting" : "Not Eligible";
+    // let result = (age > 18) ? "Your Eligible for voting" : "Not Eligible";
 
-//     console.log(result);
+    // console.log(result);
     
 
 // // 7. Type OP
 
-// console.log(typeof result);
+    // console.log(typeof result);
